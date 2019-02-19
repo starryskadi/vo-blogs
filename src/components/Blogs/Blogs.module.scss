@@ -1,0 +1,28 @@
+.Blogs {
+    display: flex;
+    flex-wrap: wrap;
+    background: #23eba6;
+    padding: 40px 0;
+    position: relative;
+    &::before, &::after {
+        position: absolute;
+        top: -2px;
+        right: 0;
+        left: 0;
+        height: 30px;
+        background: url(https://bourbon.britcdn.com/assets/wave-white.svg);
+        background-size: cover;
+        content: '';
+    }
+    &::after {
+        transform: rotate(180deg);
+        bottom: -2px;
+        top: auto;
+    }
+}
+.Blogs a {
+    padding: 5px;
+    margin: 5px;
+    flex: 1 (90%/ 4 );
+    background: white;
+}

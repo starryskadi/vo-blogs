@@ -1,0 +1,19 @@
+.Banner {
+    width: 100%;
+    position: relative;
+}
+.Banner img {
+    width: 100%;
+}
+.Banner h1 {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    color: white;
+}
